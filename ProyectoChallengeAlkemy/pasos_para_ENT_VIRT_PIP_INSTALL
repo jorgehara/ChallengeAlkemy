@@ -1,0 +1,8 @@
+mkdir "nombre carpeta"
+cd "nombre carpeta"
+python3 -m venv "nombre del entorno virtual"
+cd "nombre del entorno virtual"
+source bin/activate
+pip list
+pip install python-decouple
+pip list
